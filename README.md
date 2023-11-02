@@ -11,3 +11,5 @@ If you don't use a Genesis 8.1 model and you have a properly modeled eye, just a
 
 
 If you have any ideas for improvement let me know by committing an issue or something. If you are unsure and wanna discuss it beforehand add me on Discord, my username should be "calibrator". I dunno how it works anymore.
+
+NOTE: I forgot to mention that Refraction caustics should be disabled in render properties unless they are absolutely required for something else. For this shader they are not needed and can only introduce noise.
