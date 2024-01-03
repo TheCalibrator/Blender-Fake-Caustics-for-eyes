@@ -14,6 +14,8 @@ In my testing I needed to increase the max values of the map range quite a lot t
 
 V1 is pretty much completely different from the old beta version I uploaded 2 months ago so the change log is "everything"
 
+You're free to use this however you want. Credit is appreciated and if you wanna support me there's a Patreon link in my profile.
+
 ---------------------------------------
 Old beta version:
 
@@ -33,5 +35,3 @@ The blend file contains a material for Genesis 8/8.1. You need to merge the corn
 If you have any ideas for improvement let me know by committing an issue or something. If you are unsure and wanna discuss it beforehand add me on Discord, my username should be "calibrator". I dunno how it works anymore.
 
 NOTE: I forgot to mention that Refraction caustics should be disabled in render properties unless they are absolutely required for something else. For this shader they are not needed and can only introduce noise.
-
-You're free to use this however you want. Credit is appreciated and if you wanna support me there's a Patreon link in my profile.
