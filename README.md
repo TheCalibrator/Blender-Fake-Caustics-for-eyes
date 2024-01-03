@@ -1,3 +1,20 @@
+V1:
+
+Fake Eye caustics shader. The example file shows how to add it to a material. I am separating a mesh over the sclera and the cornea with a texture, but you can directly add the "FakeEyeCaustics" node group on the cornea. 
+
+The ray control is there to remove noise (if disabled) but it hides the light from reflecting with diffuse and glossy rays. Keep it enabled unless you want it hidden.
+
+Unfortunately I used a map range node so control from a node group is hard to achieve, but I managed to add a slider for enabling/disabling the light, which can be used to dim it and I also added a slider to multiply it's strength. If you want even more control you will need to edit the map range node inside the node group.
+
+If you want to use a normal map for whatever reason you can add a new group input and plug it into the Fresnel node.
+
+In my testing I needed to increase the max values of the map range quite a lot to make it properly noticeable. That said, I am happy with this and unless someone suggests some changes or reports a solvable issue I will not be updating this further.
+
+V1 is pretty much completely different from the old beta version I uploaded 2 months ago so the change log is "everything"
+
+---------------------------------------
+Old beta version:
+
 # Blender-Fake-Caustics-for-eyes
 Quick, mostly realtime, fake caustics for Genesis 8.1 models originally but can be used in theory on any cornea shader. It's not accurate but can be modified. Unfinished as of writing this. It needs accessibility.
 
