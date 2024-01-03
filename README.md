@@ -1,5 +1,7 @@
 V1:
 
+NOTE: If you don't need Caustics enabled for anything else, you should disable them. It will reduce render times and noise but the fake eye caustics are using alpha/transparency instead.
+
 Fake Eye caustics shader. The example file shows how to add it to a material. I am separating a mesh over the sclera and the cornea with a texture, but you can directly add the "FakeEyeCaustics" node group on the cornea. 
 
 The ray control is there to remove noise (if disabled) but it hides the light from reflecting with diffuse and glossy rays. Keep it enabled unless you want it hidden.
