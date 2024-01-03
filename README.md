@@ -10,7 +10,7 @@ The ray control is there to remove noise (if disabled) but it hides the light fr
 
 Unfortunately I used a map range node so control from a node group is hard to achieve, but I managed to add a slider for enabling/disabling the light, which can be used to dim it and I also added a slider to multiply it's strength. If you want even more control you will need to edit the map range node inside the node group.
 
-If you want to use a normal map for whatever reason you can add a new group input and plug it into the Fresnel node.
+If you want to use a normal map for whatever reason you can add a new group input and plug it into the Layer Weight node.
 
 In my testing I needed to increase the max values of the map range quite a lot to make it properly noticeable. That said, I am happy with this and unless someone suggests some changes or reports a solvable issue I will not be updating this further.
 
