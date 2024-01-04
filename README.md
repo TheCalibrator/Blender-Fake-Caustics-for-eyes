@@ -19,7 +19,7 @@ V1 is pretty much completely different from the old beta version I uploaded 2 mo
 You're free to use this however you want. Credit is appreciated and if you wanna support me there's a Patreon link in my profile.
 
 ---------------------------------------
-Old beta version:
+Old beta version (can be downloaded from the "beta-old" branch):
 
 # Blender-Fake-Caustics-for-eyes
 Quick, mostly realtime, fake caustics for Genesis 8.1 models originally but can be used in theory on any cornea shader. It's not accurate but can be modified. Unfinished as of writing this. It needs accessibility.
