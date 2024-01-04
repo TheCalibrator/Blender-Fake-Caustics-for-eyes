@@ -1,24 +1,5 @@
-V1:
+This is the old version, use V1 instead unless you want this for some reason.
 
-NOTE: If you don't need Caustics enabled for anything else, you should disable them. It will reduce render times and noise but the fake eye caustics are using alpha/transparency instead.
-
-NOTE 2: Forgot to mention it only works with Cycles. If anyone knows how to make it work with Eevee let me know.
-
-Fake Eye caustics shader. The example file shows how to add it to a material. I am separating a mesh over the sclera and the cornea with a texture, but you can directly add the "FakeEyeCaustics" node group on the cornea. 
-
-The ray control is there to remove noise (if disabled) but it hides the light from reflecting with diffuse and glossy rays. Keep it enabled unless you want it hidden.
-
-Unfortunately I used a map range node so control from a node group is hard to achieve, but I managed to add a slider for enabling/disabling the light, which can be used to dim it and I also added a slider to multiply it's strength. If you want even more control you will need to edit the map range node inside the node group.
-
-If you want to use a normal map for whatever reason you can add a new group input and plug it into the Layer Weight node.
-
-In my testing I needed to increase the max values of the map range quite a lot to make it properly noticeable. That said, I am happy with this and unless someone suggests some changes or reports a solvable issue I will not be updating this further.
-
-V1 is pretty much completely different from the old beta version I uploaded 2 months ago so the change log is "everything"
-
-You're free to use this however you want. Credit is appreciated and if you wanna support me there's a Patreon link in my profile.
-
----------------------------------------
 Old beta version:
 
 # Blender-Fake-Caustics-for-eyes
@@ -37,3 +18,5 @@ The blend file contains a material for Genesis 8/8.1. You need to merge the corn
 If you have any ideas for improvement let me know by committing an issue or something. If you are unsure and wanna discuss it beforehand add me on Discord, my username should be "calibrator". I dunno how it works anymore.
 
 NOTE: I forgot to mention that Refraction caustics should be disabled in render properties unless they are absolutely required for something else. For this shader they are not needed and can only introduce noise.
+
+You're free to use this however you want. Credit is appreciated and if you wanna support me there's a Patreon link in my profile.
