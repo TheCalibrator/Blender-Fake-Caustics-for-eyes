@@ -1,8 +1,6 @@
+# Blender-Fake-Caustics-for-eyes
+
 V1:
-
-NOTE: If you don't need Caustics enabled for anything else, you should disable them. It will reduce render times and noise but the fake eye caustics are using alpha/transparency instead.
-
-NOTE 2: Forgot to mention it only works with Cycles. If anyone knows how to make it work with Eevee let me know.
 
 Fake Eye caustics shader. The example file shows how to add it to a material. I am separating a mesh over the sclera and the cornea with a texture, but you can directly add the "FakeEyeCaustics" node group on the cornea. 
 
@@ -17,6 +15,10 @@ In my testing I needed to increase the max values of the map range quite a lot t
 V1 is pretty much completely different from the old beta version I uploaded 2 months ago so the change log is "everything"
 
 You're free to use this however you want. Credit is appreciated and if you wanna support me there's a Patreon link in my profile.
+
+NOTE: If you don't need Caustics enabled for anything else, you should disable them. It will reduce render times and noise but the fake eye caustics are using alpha/transparency instead.
+
+NOTE 2: Forgot to mention it only works with Cycles. If anyone knows how to make it work with Eevee let me know.
 
 ---------------------------------------
 Old beta version (can be downloaded from the "beta-old" branch):
