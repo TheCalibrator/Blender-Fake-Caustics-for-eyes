@@ -20,6 +20,9 @@ NOTE: If you don't need Caustics enabled for anything else, you should disable t
 
 NOTE 2: Forgot to mention it only works with Cycles. If anyone knows how to make it work with Eevee let me know.
 
+Known Issues:
+It's possible that the added light makes the eyelids too bright. This may cause bad results because of the SSS. You can use the settings to adjust the strength of the caustics if necessary, or adjust the layer weight's value to try and avoid this issue.
+
 ---------------------------------------
 Old beta version (can be downloaded from the "beta-old" branch):
 
